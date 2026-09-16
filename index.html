@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Happy Birthday, My Love</title>
+  <meta name="description" content="A birthday wish, our memories, and a little love letter.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='28'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="intro" class="intro">
+    <p class="eyebrow">♡ A LITTLE BIRTHDAY MAGIC ♡</p>
+    <p class="handwriting">Before your surprise…</p>
+    <h1>Make a wish,<br><em>my love.</em></h1>
+    <p>A cake, a little candlelight, and all my love for you.</p>
+    <div id="cake" class="cake">
+      <img src="cake.webp" alt="A pink birthday cake with three candles" width="1254" height="1254">
+      <span class="flame" style="left:38.04%;top:19.86%" aria-hidden="true">🔥</span>
+      <span class="flame" style="left:49.92%;top:19.78%" aria-hidden="true">🔥</span>
+      <span class="flame" style="left:61.80%;top:19.86%" aria-hidden="true">🔥</span>
+    </div>
+    <p id="status" role="status">Close your eyes. Make a wish. Blow out the candles.</p>
+    <button id="mic" class="primary">🎤 Blow out the candles</button>
+    <button id="tap" class="text-button">Or blow them out with a tap</button>
+    <p class="small">Microphone optional · Audio stays on your device</p>
+  </main>
+
+  <main id="birthday" hidden>
+    <header><span>♡ a little love note</span><span>JUST FOR YOU</span></header>
+    <section class="keepsake">
+      <div id="photos-left" class="photo-column"></div>
+      <div class="message">
+        <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+        <p class="handwriting">To my favorite person,</p>
+        <h1 id="birthday-title" tabindex="-1">Happy<br><em>Birthday,</em><br>my love ♡</h1>
+        <p class="divider">──── ♡ ────</p>
+        <p>The world became a little more beautiful<br>the day you were born.<br>And mine became everything when I found you.</p>
+        <button id="open-letter" class="primary">♡ Open your letter</button>
+        <p class="handwriting small-note">A few words, a whole lot of love</p>
+        <button id="wish" class="text-button">✧ Make another wish</button>
+        <p id="wish-status" role="status"></p>
+      </div>
+      <div id="photos-right" class="photo-column"></div>
+    </section>
+    <footer>
+      <p class="handwriting">Every day with you is my favorite.</p>
+      <p class="eyebrow">ALWAYS YOU. ALWAYS US. ♡</p>
+      <p class="small">Tap a frame to add a photo · JPG, PNG or WebP · Up to 8 MB</p>
+      <p class="small">Uploaded photos are saved in this browser only.</p>
+    </footer>
+  </main>
+
+  <dialog id="letter" aria-labelledby="letter-title">
+    <button id="close-letter" class="close" aria-label="Close love letter">×</button>
+    <p class="eyebrow">♡ A BIRTHDAY LOVE LETTER ♡</p>
+    <h2 id="letter-title">My sweetest love,</h2>
+    <p>If I could wrap up a feeling and give it to you today, it would be the warmth I feel every time you smile.</p>
+    <p>You make ordinary days feel like something worth remembering. Your laugh, your kindness, the way you are simply you — I fall in love with all of it, over and over.</p>
+    <p>On your birthday, I wish you the kind of happiness you bring into my life. May this next chapter be gentle, beautiful, and full of the things your heart has been hoping for.</p>
+    <p>Whatever the years bring, I hope I get to keep celebrating you. Today, tomorrow, and for all the birthdays still to come.</p>
+    <p class="handwriting">All my love, always. ♡</p>
+  </dialog>
+  <div id="confetti" aria-hidden="true"></div>
+  <noscript>Please enable JavaScript to use the candles and photo frames.</noscript>
+</body>
+</html>
